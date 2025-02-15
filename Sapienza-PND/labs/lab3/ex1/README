@@ -1,0 +1,16 @@
+A lan with a host, a server and a router. Can you join the network
+and eavesdrop the traffic? 
+The assignment is to create a virtual interface in the hosting
+machine and join the internal network A. This can be done in several
+ways (using the bridge interface or creating a virtual interface to
+be joined to the actual bridge).
+Once done sniff the traffic.
+
+- Create some traffic between the host and the server. Can you
+  see the traffic from the hosting machine (the lubuntu box)?
+ 
+Solution:
+
+> docker network ls #Find network with kathara_"username"_A
+> ./connect-lab-ip.sh 192.168.100.200/24 kathara_"username"_A #from previous step, can be different based on username
+> run wireshark, capture packets on veth0 #can be different. Check the IP address of interface, should be identical to one assigned in previous step

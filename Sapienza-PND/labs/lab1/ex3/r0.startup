@@ -1,0 +1,3 @@
+ip addr replace 172.16.254.1/24 dev eth0
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+

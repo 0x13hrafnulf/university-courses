@@ -1,0 +1,6 @@
+iface eth0 inet6 static
+    address 2001:DB8:CAFE:1::101/64
+
+iface eth0 inet6 static
+    address fe80::101/64
+    gateway fe80::1

@@ -1,0 +1,12 @@
+/etc/init.d/networking restart
+
+echo -e '\n\n\n' | ssh-keygen
+pwd
+cp /root/.ssh/id_rsa.pub /shared/pc4_key.pub
+touch /root/.ssh/known_hosts
+
+until ping -c1 192.168.1.2 &> /dev/null; do :;done
+
+ssh-keyscan -t rsa 192.168.1.2 > /root/.ssh/known_hosts
+
+ssh -v -4 -NL 9000:192.168.1.2:8080 user@192.168.1.2 &

@@ -1,0 +1,36 @@
+ip addr add 100.60.10.1/16 dev eth0
+ip addr add 192.168.1.1/24 dev eth1
+
+dpkg -i /shared/*.deb
+
+#openvpn --genkey --secret secret.key
+
+#######EXCHANGE OF THE KEY
+#Exchange the secret.key file with scp
+
+#or 
+
+#openssl enc -aes-128-cbc -e -a -in secret.key -out secret.key.enc
+#on r2: >nc -l -p 9000 > secret.key.enc # Listen and receive
+#on r1: >nc <r2IPaddress> -p 9000 < secret.key.enc # Send
+#on r2: >openssl enc -aes-128-cbc -d -a -in secret.key.enc -out secret.key
+
+#or simply copy the key content from terminal in kathara through copy-paste
+##########################
+
+## Inside a configuration file r1.conf:
+#port 1194
+#proto udp
+#dev tun
+#secret secret.key
+#cipher AES-256-CBC
+#ifconfig 10.10.10.1 10.10.10.2
+
+#Run
+#openvpn --config r1.conf
+
+#2nd part with dynamic keys and CA
+#check tutorial
+#https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04
+#https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-18-04
+#https://linuxconfig.org/how-to-setup-a-openvpn-server-on-ubuntu-20-04

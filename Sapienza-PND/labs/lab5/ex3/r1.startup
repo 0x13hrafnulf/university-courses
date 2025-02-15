@@ -1,0 +1,22 @@
+ip addr add 100.60.0.100/16 dev eth0
+ip route add default via 100.60.0.1
+
+dpkg -i /shared/*.deb
+
+#in /etc/ipsec-tools.conf add lines
+#flush;
+#spdflush;
+#spdadd 100.60.0.100 100.90.0.100 any -P out ipsec
+#   esp/transport//require;
+
+#spdadd 100.90.0.100 100.60.0.100 any -P in ipsec
+#   esp/transport//require;
+
+#add 100.60.0.100 100.90.0.100 esp 701 -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0f;
+#add 100.90.0.100 100.60.0.100 esp 702 -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0e;
+
+#THEN
+#/etc/init.d/setkey start
+#setkey -D #to see setup

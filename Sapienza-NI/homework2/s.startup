@@ -1,0 +1,17 @@
+/etc/init.d/networking restart
+
+echo -e '\n\n\n' | ssh-keygen
+pwd
+cp /root/.ssh/id_rsa.pub /shared/id_rsa.pub
+
+mkdir -p /dev/net
+mknod /dev/net/tun c 10 200
+chmod 600 /dev/net/tun
+
+cp /shared/keys/client1.crt /root/
+cp /shared/keys/client1.key /root/
+cp /shared/keys/ca.crt /root/
+
+( while ! ping -c 1 8.8.8.8 &> /dev/null; do printf "%c" "."; sleep 1; done; touch /root/done ) &
+
+openvpn /root/client.conf &

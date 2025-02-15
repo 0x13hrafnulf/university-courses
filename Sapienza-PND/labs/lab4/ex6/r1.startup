@@ -1,0 +1,66 @@
+ip addr add 192.168.10.1/29 dev eth0
+ip addr add 192.168.10.17/29 dev eth1
+
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+iptables -A INPUT -i eth0 -j ACCEPT
+iptables -A INPUT -i eth1 -j ACCEPT
+
+iptables -A INPUT -i eth2 -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -i eth2 -p tcp --dport 443 -j ACCEPT
+iptables -A INPUT -i eth2 -p tcp --dport 22 -j ACCEPT
+
+iptables -A INPUT -i eth2 -p tcp --dport 8080 -j ACCEPT
+iptables -A INPUT -i eth2 -p tcp --dport 8088 -j ACCEPT
+iptables -A INPUT -i eth2 -p tcp --dport 2222 -j ACCEPT
+
+iptables -t nat -A POSTROUTING -o eth2 -j MASQUERADE
+
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.2
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 443 -j DNAT --to-destination 192.168.10.2
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 22 -j DNAT --to-destination 192.168.10.2
+
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 8080 -j DNAT --to-destination 192.168.10.18:80
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 8088 -j DNAT --to-destination 192.168.10.18:443
+iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 2222 -j DNAT --to-destination 192.168.10.18:22
+
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.2 -p tcp --dport 80 -j SNAT --to-source 192.168.10.1
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.2 -p tcp --dport 443 -j SNAT --to-source  192.168.10.1
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.2 -p tcp --dport 22 -j SNAT --to-source  192.168.10.1
+
+iptables -t nat -A POSTROUTING -o eth1 -d 192.168.10.18 -p tcp --dport 80 -j SNAT --to-source 192.168.10.17
+iptables -t nat -A POSTROUTING -o eth1 -d 192.168.10.18 -p tcp --dport 443 -j SNAT --to-source  192.168.10.17
+iptables -t nat -A POSTROUTING -o eth1 -d 192.168.10.18 -p tcp --dport 22 -j SNAT --to-source  192.168.10.17
+
+iptables -A FORWARD -p tcp --dport 80  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 80  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 443 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 443 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 22 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 22 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+
+iptables -A FORWARD -p tcp --dport 8080  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 8080  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 8088 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 8088 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 2222 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 2222 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+
+iptables -A INPUT -i eth2 -d 172.17.0.2 -p icmp --icmp-type echo-request -j DROP 
+
+iptables -A INPUT -i eth2 -p TCP -j REJECT --reject-with tcp-reset
+iptables -A INPUT -i eth2 -d 172.17.0.2 -p ICMP -j REJECT --reject-with icmp-port-unreachable
+
+iptables -A FORWARD -i eth0 -o eth1 -j ACCEPT
+iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
+iptables -A FORWARD -o eth2 -j ACCEPT
+
+iptables -A FORWARD -i eth0 -o eth2 -p icmp --icmp-type echo-request -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -i eth2 -o eth0 -p icmp --icmp-type echo-reply -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+iptables -A FORWARD -i eth1 -o eth2 -p icmp --icmp-type echo-request -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -i eth2 -o eth1 -p icmp --icmp-type echo-reply -m state --state ESTABLISHED,RELATED -j ACCEPT

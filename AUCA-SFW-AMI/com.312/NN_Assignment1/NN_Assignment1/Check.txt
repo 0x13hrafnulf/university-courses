@@ -1,0 +1,2011 @@
+number of training patterns = 10
+Learning cycle: 0
+Number = 1
+output[0] = 0.011234, error[1] = -0.011234
+Number = 3
+output[0] = 0.000002, error[3] = -0.000002
+Number = 0
+output[0] = 0.000075, error[0] = 0.999925
+Number = 4
+output[0] = 0.941532, error[4] = -0.941532
+Number = 6
+output[0] = 0.000006, error[6] = -0.000006
+Number = 5
+output[0] = 0.000158, error[5] = -0.000158
+Number = 2
+output[0] = 0.000001, error[2] = -0.000001
+Number = 7
+output[0] = 0.000313, error[7] = -0.000313
+Number = 9
+output[0] = 0.000014, error[9] = -0.000014
+Number = 8
+output[0] = 0.422069, error[8] = -0.422069
+Number = 1
+output[1] = 0.199995, error[1] = 0.800005
+Number = 3
+output[1] = 1.000000, error[3] = -1.000000
+Number = 0
+output[1] = 0.979924, error[0] = -0.979924
+Number = 4
+output[1] = 0.059907, error[4] = -0.059907
+Number = 6
+output[1] = 0.087607, error[6] = -0.087607
+Number = 5
+output[1] = 0.955601, error[5] = -0.955601
+Number = 2
+output[1] = 0.012927, error[2] = -0.012927
+Number = 7
+output[1] = 0.000000, error[7] = -0.000000
+Number = 9
+output[1] = 0.000000, error[9] = -0.000000
+Number = 8
+output[1] = 0.003656, error[8] = -0.003656
+Number = 1
+output[2] = 0.900552, error[1] = -0.900552
+Number = 3
+output[2] = 0.896905, error[3] = -0.896905
+Number = 0
+output[2] = 0.000000, error[0] = -0.000000
+Number = 4
+output[2] = 0.000000, error[4] = -0.000000
+Number = 6
+output[2] = 0.000000, error[6] = -0.000000
+Number = 5
+output[2] = 0.005661, error[5] = -0.005661
+Number = 2
+output[2] = 0.000000, error[2] = 1.000000
+Number = 7
+output[2] = 0.043104, error[7] = -0.043104
+Number = 9
+output[2] = 0.004847, error[9] = -0.004847
+Number = 8
+output[2] = 0.132652, error[8] = -0.132652
+Number = 1
+output[3] = 0.000295, error[1] = -0.000295
+Number = 3
+output[3] = 0.668048, error[3] = 0.331952
+Number = 0
+output[3] = 0.983362, error[0] = -0.983362
+Number = 4
+output[3] = 0.017193, error[4] = -0.017193
+Number = 6
+output[3] = 0.000001, error[6] = -0.000001
+Number = 5
+output[3] = 0.011920, error[5] = -0.011920
+Number = 2
+output[3] = 0.000001, error[2] = -0.000001
+Number = 7
+output[3] = 0.232385, error[7] = -0.232385
+Number = 9
+output[3] = 0.000243, error[9] = -0.000243
+Number = 8
+output[3] = 0.003602, error[8] = -0.003602
+Number = 1
+output[4] = 0.973943, error[1] = -0.973943
+Number = 3
+output[4] = 0.977846, error[3] = -0.977846
+Number = 0
+output[4] = 0.000001, error[0] = -0.000001
+Number = 4
+output[4] = 0.003453, error[4] = 0.996547
+Number = 6
+output[4] = 0.974770, error[6] = -0.974770
+Number = 5
+output[4] = 0.144098, error[5] = -0.144098
+Number = 2
+output[4] = 0.000165, error[2] = -0.000165
+Number = 7
+output[4] = 0.030923, error[7] = -0.030923
+Number = 9
+output[4] = 0.681196, error[9] = -0.681196
+Number = 8
+output[4] = 0.000000, error[8] = -0.000000
+Number = 1
+output[5] = 0.529096, error[1] = -0.529096
+Number = 3
+output[5] = 0.997367, error[3] = -0.997367
+Number = 0
+output[5] = 0.016558, error[0] = -0.016558
+Number = 4
+output[5] = 0.003255, error[4] = -0.003255
+Number = 6
+output[5] = 0.000055, error[6] = -0.000055
+Number = 5
+output[5] = 0.006046, error[5] = 0.993954
+Number = 2
+output[5] = 0.000003, error[2] = -0.000003
+Number = 7
+output[5] = 0.000003, error[7] = -0.000003
+Number = 9
+output[5] = 0.000151, error[9] = -0.000151
+Number = 8
+output[5] = 0.001205, error[8] = -0.001205
+Number = 1
+output[6] = 0.643131, error[1] = -0.643131
+Number = 3
+output[6] = 0.000004, error[3] = -0.000004
+Number = 0
+output[6] = 0.000034, error[0] = -0.000034
+Number = 4
+output[6] = 0.967527, error[4] = -0.967527
+Number = 6
+output[6] = 0.000018, error[6] = 0.999982
+Number = 5
+output[6] = 0.998808, error[5] = -0.998808
+Number = 2
+output[6] = 0.041059, error[2] = -0.041059
+Number = 7
+output[6] = 0.002665, error[7] = -0.002665
+Number = 9
+output[6] = 0.972145, error[9] = -0.972145
+Number = 8
+output[6] = 0.000000, error[8] = -0.000000
+Number = 1
+output[7] = 0.580310, error[1] = -0.580310
+Number = 3
+output[7] = 0.832010, error[3] = -0.832010
+Number = 0
+output[7] = 0.000002, error[0] = -0.000002
+Number = 4
+output[7] = 0.126648, error[4] = -0.126648
+Number = 6
+output[7] = 0.000420, error[6] = -0.000420
+Number = 5
+output[7] = 0.000005, error[5] = -0.000005
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.000771, error[7] = 0.999229
+Number = 9
+output[7] = 0.813809, error[9] = -0.813809
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.085607, error[1] = -0.085607
+Number = 3
+output[8] = 0.139449, error[3] = -0.139449
+Number = 0
+output[8] = 0.226480, error[0] = -0.226480
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.014656, error[6] = -0.014656
+Number = 5
+output[8] = 0.000939, error[5] = -0.000939
+Number = 2
+output[8] = 0.000021, error[2] = -0.000021
+Number = 7
+output[8] = 0.000005, error[7] = -0.000005
+Number = 9
+output[8] = 0.000953, error[9] = -0.000953
+Number = 8
+output[8] = 0.006222, error[8] = 0.993778
+Number = 1
+output[9] = 0.005546, error[1] = -0.005546
+Number = 3
+output[9] = 0.998528, error[3] = -0.998528
+Number = 0
+output[9] = 0.378861, error[0] = -0.378861
+Number = 4
+output[9] = 0.898604, error[4] = -0.898604
+Number = 6
+output[9] = 0.079808, error[6] = -0.079808
+Number = 5
+output[9] = 0.141302, error[5] = -0.141302
+Number = 2
+output[9] = 0.000197, error[2] = -0.000197
+Number = 7
+output[9] = 0.000002, error[7] = -0.000002
+Number = 9
+output[9] = 0.000000, error[9] = 1.000000
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000
+Learning cycle: 1
+Number = 1
+output[0] = 0.002241, error[1] = -0.002241
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.340212, error[0] = 0.659788
+Number = 4
+output[0] = 0.000166, error[4] = -0.000166
+Number = 6
+output[0] = 0.000006, error[6] = -0.000006
+Number = 5
+output[0] = 0.000002, error[5] = -0.000002
+Number = 2
+output[0] = 0.000090, error[2] = -0.000090
+Number = 7
+output[0] = 0.007159, error[7] = -0.007159
+Number = 9
+output[0] = 0.001278, error[9] = -0.001278
+Number = 8
+output[0] = 0.561324, error[8] = -0.561324
+Number = 1
+output[1] = 0.000339, error[1] = 0.999661
+Number = 3
+output[1] = 0.000043, error[3] = -0.000043
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.002355, error[4] = -0.002355
+Number = 6
+output[1] = 0.007357, error[6] = -0.007357
+Number = 5
+output[1] = 0.389598, error[5] = -0.389598
+Number = 2
+output[1] = 0.011460, error[2] = -0.011460
+Number = 7
+output[1] = 0.000001, error[7] = -0.000001
+Number = 9
+output[1] = 0.000048, error[9] = -0.000048
+Number = 8
+output[1] = 0.009007, error[8] = -0.009007
+Number = 1
+output[2] = 0.000468, error[1] = -0.000468
+Number = 3
+output[2] = 0.106053, error[3] = -0.106053
+Number = 0
+output[2] = 0.003007, error[0] = -0.003007
+Number = 4
+output[2] = 0.000053, error[4] = -0.000053
+Number = 6
+output[2] = 0.000838, error[6] = -0.000838
+Number = 5
+output[2] = 0.160233, error[5] = -0.160233
+Number = 2
+output[2] = 0.607162, error[2] = 0.392838
+Number = 7
+output[2] = 0.081435, error[7] = -0.081435
+Number = 9
+output[2] = 0.000294, error[9] = -0.000294
+Number = 8
+output[2] = 0.166447, error[8] = -0.166447
+Number = 1
+output[3] = 0.000096, error[1] = -0.000096
+Number = 3
+output[3] = 0.001159, error[3] = 0.998841
+Number = 0
+output[3] = 0.002535, error[0] = -0.002535
+Number = 4
+output[3] = 0.769439, error[4] = -0.769439
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.152184, error[5] = -0.152184
+Number = 2
+output[3] = 0.000012, error[2] = -0.000012
+Number = 7
+output[3] = 0.197835, error[7] = -0.197835
+Number = 9
+output[3] = 0.000106, error[9] = -0.000106
+Number = 8
+output[3] = 0.184419, error[8] = -0.184419
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000000, error[3] = -0.000000
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.003979, error[4] = 0.996021
+Number = 6
+output[4] = 0.000121, error[6] = -0.000121
+Number = 5
+output[4] = 0.074127, error[5] = -0.074127
+Number = 2
+output[4] = 0.030705, error[2] = -0.030705
+Number = 7
+output[4] = 0.621587, error[7] = -0.621587
+Number = 9
+output[4] = 0.069171, error[9] = -0.069171
+Number = 8
+output[4] = 0.000001, error[8] = -0.000001
+Number = 1
+output[5] = 0.000528, error[1] = -0.000528
+Number = 3
+output[5] = 0.000036, error[3] = -0.000036
+Number = 0
+output[5] = 0.564830, error[0] = -0.564830
+Number = 4
+output[5] = 0.000403, error[4] = -0.000403
+Number = 6
+output[5] = 0.000001, error[6] = -0.000001
+Number = 5
+output[5] = 0.116778, error[5] = 0.883222
+Number = 2
+output[5] = 0.000000, error[2] = -0.000000
+Number = 7
+output[5] = 0.000000, error[7] = -0.000000
+Number = 9
+output[5] = 0.000002, error[9] = -0.000002
+Number = 8
+output[5] = 0.000037, error[8] = -0.000037
+Number = 1
+output[6] = 0.000000, error[1] = -0.000000
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000000, error[0] = -0.000000
+Number = 4
+output[6] = 0.000000, error[4] = -0.000000
+Number = 6
+output[6] = 0.025481, error[6] = 0.974519
+Number = 5
+output[6] = 0.006251, error[5] = -0.006251
+Number = 2
+output[6] = 0.023692, error[2] = -0.023692
+Number = 7
+output[6] = 0.000567, error[7] = -0.000567
+Number = 9
+output[6] = 0.001589, error[9] = -0.001589
+Number = 8
+output[6] = 0.000003, error[8] = -0.000003
+Number = 1
+output[7] = 0.000001, error[1] = -0.000001
+Number = 3
+output[7] = 0.000070, error[3] = -0.000070
+Number = 0
+output[7] = 0.000002, error[0] = -0.000002
+Number = 4
+output[7] = 0.053022, error[4] = -0.053022
+Number = 6
+output[7] = 0.002181, error[6] = -0.002181
+Number = 5
+output[7] = 0.000001, error[5] = -0.000001
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.009756, error[7] = 0.990244
+Number = 9
+output[7] = 0.084437, error[9] = -0.084437
+Number = 8
+output[7] = 0.003030, error[8] = -0.003030
+Number = 1
+output[8] = 0.934978, error[1] = -0.934978
+Number = 3
+output[8] = 0.592777, error[3] = -0.592777
+Number = 0
+output[8] = 0.002895, error[0] = -0.002895
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.000064, error[6] = -0.000064
+Number = 5
+output[8] = 0.000475, error[5] = -0.000475
+Number = 2
+output[8] = 0.000000, error[2] = -0.000000
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000094, error[9] = -0.000094
+Number = 8
+output[8] = 0.022267, error[8] = 0.977733
+Number = 1
+output[9] = 0.000023, error[1] = -0.000023
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000006, error[0] = -0.000006
+Number = 4
+output[9] = 0.032259, error[4] = -0.032259
+Number = 6
+output[9] = 0.711535, error[6] = -0.711535
+Number = 5
+output[9] = 0.036217, error[5] = -0.036217
+Number = 2
+output[9] = 0.000015, error[2] = -0.000015
+Number = 7
+output[9] = 0.000002, error[7] = -0.000002
+Number = 9
+output[9] = 0.000176, error[9] = 0.999824
+Number = 8
+output[9] = 0.000003, error[8] = -0.000003
+Learning cycle: 2
+Number = 1
+output[0] = 0.008565, error[1] = -0.008565
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999881, error[0] = 0.000119
+Number = 4
+output[0] = 0.000005, error[4] = -0.000005
+Number = 6
+output[0] = 0.000000, error[6] = -0.000000
+Number = 5
+output[0] = 0.000000, error[5] = -0.000000
+Number = 2
+output[0] = 0.000001, error[2] = -0.000001
+Number = 7
+output[0] = 0.000096, error[7] = -0.000096
+Number = 9
+output[0] = 0.000097, error[9] = -0.000097
+Number = 8
+output[0] = 0.000000, error[8] = -0.000000
+Number = 1
+output[1] = 0.713140, error[1] = 0.286860
+Number = 3
+output[1] = 0.000022, error[3] = -0.000022
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.000148, error[4] = -0.000148
+Number = 6
+output[1] = 0.000241, error[6] = -0.000241
+Number = 5
+output[1] = 0.000888, error[5] = -0.000888
+Number = 2
+output[1] = 0.077522, error[2] = -0.077522
+Number = 7
+output[1] = 0.000010, error[7] = -0.000010
+Number = 9
+output[1] = 0.000002, error[9] = -0.000002
+Number = 8
+output[1] = 0.030377, error[8] = -0.030377
+Number = 1
+output[2] = 0.000170, error[1] = -0.000170
+Number = 3
+output[2] = 0.400724, error[3] = -0.400724
+Number = 0
+output[2] = 0.000125, error[0] = -0.000125
+Number = 4
+output[2] = 0.000008, error[4] = -0.000008
+Number = 6
+output[2] = 0.000001, error[6] = -0.000001
+Number = 5
+output[2] = 0.049101, error[5] = -0.049101
+Number = 2
+output[2] = 0.913467, error[2] = 0.086533
+Number = 7
+output[2] = 0.000056, error[7] = -0.000056
+Number = 9
+output[2] = 0.000407, error[9] = -0.000407
+Number = 8
+output[2] = 0.000156, error[8] = -0.000156
+Number = 1
+output[3] = 0.000022, error[1] = -0.000022
+Number = 3
+output[3] = 0.391858, error[3] = 0.608142
+Number = 0
+output[3] = 0.000275, error[0] = -0.000275
+Number = 4
+output[3] = 0.000010, error[4] = -0.000010
+Number = 6
+output[3] = 0.000001, error[6] = -0.000001
+Number = 5
+output[3] = 0.682709, error[5] = -0.682709
+Number = 2
+output[3] = 0.000001, error[2] = -0.000001
+Number = 7
+output[3] = 0.024088, error[7] = -0.024088
+Number = 9
+output[3] = 0.000970, error[9] = -0.000970
+Number = 8
+output[3] = 0.072972, error[8] = -0.072972
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000006, error[3] = -0.000006
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.996654, error[4] = 0.003346
+Number = 6
+output[4] = 0.000029, error[6] = -0.000029
+Number = 5
+output[4] = 0.272249, error[5] = -0.272249
+Number = 2
+output[4] = 0.000368, error[2] = -0.000368
+Number = 7
+output[4] = 0.000266, error[7] = -0.000266
+Number = 9
+output[4] = 0.012629, error[9] = -0.012629
+Number = 8
+output[4] = 0.000001, error[8] = -0.000001
+Number = 1
+output[5] = 0.001880, error[1] = -0.001880
+Number = 3
+output[5] = 0.000002, error[3] = -0.000002
+Number = 0
+output[5] = 0.000226, error[0] = -0.000226
+Number = 4
+output[5] = 0.000434, error[4] = -0.000434
+Number = 6
+output[5] = 0.000026, error[6] = -0.000026
+Number = 5
+output[5] = 0.999898, error[5] = 0.000102
+Number = 2
+output[5] = 0.000046, error[2] = -0.000046
+Number = 7
+output[5] = 0.000058, error[7] = -0.000058
+Number = 9
+output[5] = 0.000007, error[9] = -0.000007
+Number = 8
+output[5] = 0.000012, error[8] = -0.000012
+Number = 1
+output[6] = 0.000019, error[1] = -0.000019
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000278, error[0] = -0.000278
+Number = 4
+output[6] = 0.000007, error[4] = -0.000007
+Number = 6
+output[6] = 0.999871, error[6] = 0.000129
+Number = 5
+output[6] = 0.050590, error[5] = -0.050590
+Number = 2
+output[6] = 0.016003, error[2] = -0.016003
+Number = 7
+output[6] = 0.002065, error[7] = -0.002065
+Number = 9
+output[6] = 0.005173, error[9] = -0.005173
+Number = 8
+output[6] = 0.000040, error[8] = -0.000040
+Number = 1
+output[7] = 0.000539, error[1] = -0.000539
+Number = 3
+output[7] = 0.000283, error[3] = -0.000283
+Number = 0
+output[7] = 0.000340, error[0] = -0.000340
+Number = 4
+output[7] = 0.946335, error[4] = -0.946335
+Number = 6
+output[7] = 0.000263, error[6] = -0.000263
+Number = 5
+output[7] = 0.000000, error[5] = -0.000000
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.301788, error[7] = 0.698212
+Number = 9
+output[7] = 0.016973, error[9] = -0.016973
+Number = 8
+output[7] = 0.000001, error[8] = -0.000001
+Number = 1
+output[8] = 0.050857, error[1] = -0.050857
+Number = 3
+output[8] = 0.928170, error[3] = -0.928170
+Number = 0
+output[8] = 0.000922, error[0] = -0.000922
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.005243, error[6] = -0.005243
+Number = 5
+output[8] = 0.007625, error[5] = -0.007625
+Number = 2
+output[8] = 0.000000, error[2] = -0.000000
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000001, error[9] = -0.000001
+Number = 8
+output[8] = 0.866964, error[8] = 0.133036
+Number = 1
+output[9] = 0.000000, error[1] = -0.000000
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000008, error[0] = -0.000008
+Number = 4
+output[9] = 0.739748, error[4] = -0.739748
+Number = 6
+output[9] = 0.000007, error[6] = -0.000007
+Number = 5
+output[9] = 0.125091, error[5] = -0.125091
+Number = 2
+output[9] = 0.000043, error[2] = -0.000043
+Number = 7
+output[9] = 0.000003, error[7] = -0.000003
+Number = 9
+output[9] = 0.011769, error[9] = 0.988231
+Number = 8
+output[9] = 0.000001, error[8] = -0.000001
+Learning cycle: 3
+Number = 1
+output[0] = 0.000340, error[1] = -0.000340
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.986472, error[0] = 0.013528
+Number = 4
+output[0] = 0.000001, error[4] = -0.000001
+Number = 6
+output[0] = 0.000002, error[6] = -0.000002
+Number = 5
+output[0] = 0.000000, error[5] = -0.000000
+Number = 2
+output[0] = 0.000039, error[2] = -0.000039
+Number = 7
+output[0] = 0.000110, error[7] = -0.000110
+Number = 9
+output[0] = 0.000004, error[9] = -0.000004
+Number = 8
+output[0] = 0.000039, error[8] = -0.000039
+Number = 1
+output[1] = 0.943706, error[1] = 0.056294
+Number = 3
+output[1] = 0.000007, error[3] = -0.000007
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.001034, error[4] = -0.001034
+Number = 6
+output[1] = 0.013418, error[6] = -0.013418
+Number = 5
+output[1] = 0.009551, error[5] = -0.009551
+Number = 2
+output[1] = 0.004013, error[2] = -0.004013
+Number = 7
+output[1] = 0.000009, error[7] = -0.000009
+Number = 9
+output[1] = 0.000005, error[9] = -0.000005
+Number = 8
+output[1] = 0.010893, error[8] = -0.010893
+Number = 1
+output[2] = 0.000100, error[1] = -0.000100
+Number = 3
+output[2] = 0.000403, error[3] = -0.000403
+Number = 0
+output[2] = 0.000054, error[0] = -0.000054
+Number = 4
+output[2] = 0.000056, error[4] = -0.000056
+Number = 6
+output[2] = 0.000587, error[6] = -0.000587
+Number = 5
+output[2] = 0.599507, error[5] = -0.599507
+Number = 2
+output[2] = 0.128965, error[2] = 0.871035
+Number = 7
+output[2] = 0.002130, error[7] = -0.002130
+Number = 9
+output[2] = 0.002184, error[9] = -0.002184
+Number = 8
+output[2] = 0.006297, error[8] = -0.006297
+Number = 1
+output[3] = 0.000025, error[1] = -0.000025
+Number = 3
+output[3] = 0.999178, error[3] = 0.000822
+Number = 0
+output[3] = 0.000014, error[0] = -0.000014
+Number = 4
+output[3] = 0.000004, error[4] = -0.000004
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000250, error[5] = -0.000250
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.004384, error[7] = -0.004384
+Number = 9
+output[3] = 0.000806, error[9] = -0.000806
+Number = 8
+output[3] = 0.240932, error[8] = -0.240932
+Number = 1
+output[4] = 0.000001, error[1] = -0.000001
+Number = 3
+output[4] = 0.000006, error[3] = -0.000006
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.957058, error[4] = 0.042942
+Number = 6
+output[4] = 0.000000, error[6] = -0.000000
+Number = 5
+output[4] = 0.018837, error[5] = -0.018837
+Number = 2
+output[4] = 0.000744, error[2] = -0.000744
+Number = 7
+output[4] = 0.000182, error[7] = -0.000182
+Number = 9
+output[4] = 0.098488, error[9] = -0.098488
+Number = 8
+output[4] = 0.000001, error[8] = -0.000001
+Number = 1
+output[5] = 0.000022, error[1] = -0.000022
+Number = 3
+output[5] = 0.000118, error[3] = -0.000118
+Number = 0
+output[5] = 0.001063, error[0] = -0.001063
+Number = 4
+output[5] = 0.000359, error[4] = -0.000359
+Number = 6
+output[5] = 0.000003, error[6] = -0.000003
+Number = 5
+output[5] = 0.999749, error[5] = 0.000251
+Number = 2
+output[5] = 0.000020, error[2] = -0.000020
+Number = 7
+output[5] = 0.000001, error[7] = -0.000001
+Number = 9
+output[5] = 0.000034, error[9] = -0.000034
+Number = 8
+output[5] = 0.000483, error[8] = -0.000483
+Number = 1
+output[6] = 0.000001, error[1] = -0.000001
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000002, error[0] = -0.000002
+Number = 4
+output[6] = 0.000009, error[4] = -0.000009
+Number = 6
+output[6] = 0.999963, error[6] = 0.000037
+Number = 5
+output[6] = 0.023594, error[5] = -0.023594
+Number = 2
+output[6] = 0.029088, error[2] = -0.029088
+Number = 7
+output[6] = 0.030923, error[7] = -0.030923
+Number = 9
+output[6] = 0.001920, error[9] = -0.001920
+Number = 8
+output[6] = 0.000001, error[8] = -0.000001
+Number = 1
+output[7] = 0.000005, error[1] = -0.000005
+Number = 3
+output[7] = 0.000001, error[3] = -0.000001
+Number = 0
+output[7] = 0.000112, error[0] = -0.000112
+Number = 4
+output[7] = 0.005456, error[4] = -0.005456
+Number = 6
+output[7] = 0.152822, error[6] = -0.152822
+Number = 5
+output[7] = 0.000000, error[5] = -0.000000
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999965, error[7] = 0.000035
+Number = 9
+output[7] = 0.014110, error[9] = -0.014110
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.001291, error[1] = -0.001291
+Number = 3
+output[8] = 0.000000, error[3] = -0.000000
+Number = 0
+output[8] = 0.000627, error[0] = -0.000627
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.000002, error[6] = -0.000002
+Number = 5
+output[8] = 0.024943, error[5] = -0.024943
+Number = 2
+output[8] = 0.000001, error[2] = -0.000001
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000000, error[9] = -0.000000
+Number = 8
+output[8] = 0.991330, error[8] = 0.008670
+Number = 1
+output[9] = 0.000218, error[1] = -0.000218
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000006, error[0] = -0.000006
+Number = 4
+output[9] = 0.005490, error[4] = -0.005490
+Number = 6
+output[9] = 0.006687, error[6] = -0.006687
+Number = 5
+output[9] = 0.420549, error[5] = -0.420549
+Number = 2
+output[9] = 0.000009, error[2] = -0.000009
+Number = 7
+output[9] = 0.000797, error[7] = -0.000797
+Number = 9
+output[9] = 0.984404, error[9] = 0.015596
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000
+Learning cycle: 4
+Number = 1
+output[0] = 0.000023, error[1] = -0.000023
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.998995, error[0] = 0.001005
+Number = 4
+output[0] = 0.000006, error[4] = -0.000006
+Number = 6
+output[0] = 0.000003, error[6] = -0.000003
+Number = 5
+output[0] = 0.000003, error[5] = -0.000003
+Number = 2
+output[0] = 0.000000, error[2] = -0.000000
+Number = 7
+output[0] = 0.000001, error[7] = -0.000001
+Number = 9
+output[0] = 0.000004, error[9] = -0.000004
+Number = 8
+output[0] = 0.000022, error[8] = -0.000022
+Number = 1
+output[1] = 0.997129, error[1] = 0.002871
+Number = 3
+output[1] = 0.000040, error[3] = -0.000040
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.010736, error[4] = -0.010736
+Number = 6
+output[1] = 0.001000, error[6] = -0.001000
+Number = 5
+output[1] = 0.012749, error[5] = -0.012749
+Number = 2
+output[1] = 0.027197, error[2] = -0.027197
+Number = 7
+output[1] = 0.000007, error[7] = -0.000007
+Number = 9
+output[1] = 0.000006, error[9] = -0.000006
+Number = 8
+output[1] = 0.004308, error[8] = -0.004308
+Number = 1
+output[2] = 0.004694, error[1] = -0.004694
+Number = 3
+output[2] = 0.312605, error[3] = -0.312605
+Number = 0
+output[2] = 0.003916, error[0] = -0.003916
+Number = 4
+output[2] = 0.000085, error[4] = -0.000085
+Number = 6
+output[2] = 0.010123, error[6] = -0.010123
+Number = 5
+output[2] = 0.419283, error[5] = -0.419283
+Number = 2
+output[2] = 0.999729, error[2] = 0.000271
+Number = 7
+output[2] = 0.000676, error[7] = -0.000676
+Number = 9
+output[2] = 0.000081, error[9] = -0.000081
+Number = 8
+output[2] = 0.000009, error[8] = -0.000009
+Number = 1
+output[3] = 0.000002, error[1] = -0.000002
+Number = 3
+output[3] = 0.975886, error[3] = 0.024114
+Number = 0
+output[3] = 0.000000, error[0] = -0.000000
+Number = 4
+output[3] = 0.000135, error[4] = -0.000135
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000016, error[5] = -0.000016
+Number = 2
+output[3] = 0.000001, error[2] = -0.000001
+Number = 7
+output[3] = 0.039387, error[7] = -0.039387
+Number = 9
+output[3] = 0.000464, error[9] = -0.000464
+Number = 8
+output[3] = 0.008549, error[8] = -0.008549
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000001, error[3] = -0.000001
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.960436, error[4] = 0.039564
+Number = 6
+output[4] = 0.000000, error[6] = -0.000000
+Number = 5
+output[4] = 0.001306, error[5] = -0.001306
+Number = 2
+output[4] = 0.003093, error[2] = -0.003093
+Number = 7
+output[4] = 0.000185, error[7] = -0.000185
+Number = 9
+output[4] = 0.021736, error[9] = -0.021736
+Number = 8
+output[4] = 0.000001, error[8] = -0.000001
+Number = 1
+output[5] = 0.049593, error[1] = -0.049593
+Number = 3
+output[5] = 0.000000, error[3] = -0.000000
+Number = 0
+output[5] = 0.000916, error[0] = -0.000916
+Number = 4
+output[5] = 0.001248, error[4] = -0.001248
+Number = 6
+output[5] = 0.000096, error[6] = -0.000096
+Number = 5
+output[5] = 0.999350, error[5] = 0.000650
+Number = 2
+output[5] = 0.000002, error[2] = -0.000002
+Number = 7
+output[5] = 0.000000, error[7] = -0.000000
+Number = 9
+output[5] = 0.000086, error[9] = -0.000086
+Number = 8
+output[5] = 0.000118, error[8] = -0.000118
+Number = 1
+output[6] = 0.000001, error[1] = -0.000001
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000005, error[0] = -0.000005
+Number = 4
+output[6] = 0.000003, error[4] = -0.000003
+Number = 6
+output[6] = 0.999464, error[6] = 0.000536
+Number = 5
+output[6] = 0.013074, error[5] = -0.013074
+Number = 2
+output[6] = 0.016807, error[2] = -0.016807
+Number = 7
+output[6] = 0.001682, error[7] = -0.001682
+Number = 9
+output[6] = 0.000195, error[9] = -0.000195
+Number = 8
+output[6] = 0.002148, error[8] = -0.002148
+Number = 1
+output[7] = 0.000045, error[1] = -0.000045
+Number = 3
+output[7] = 0.000000, error[3] = -0.000000
+Number = 0
+output[7] = 0.000001, error[0] = -0.000001
+Number = 4
+output[7] = 0.001548, error[4] = -0.001548
+Number = 6
+output[7] = 0.005713, error[6] = -0.005713
+Number = 5
+output[7] = 0.000002, error[5] = -0.000002
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999996, error[7] = 0.000004
+Number = 9
+output[7] = 0.000591, error[9] = -0.000591
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.000615, error[1] = -0.000615
+Number = 3
+output[8] = 0.000001, error[3] = -0.000001
+Number = 0
+output[8] = 0.004192, error[0] = -0.004192
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.000589, error[6] = -0.000589
+Number = 5
+output[8] = 0.044722, error[5] = -0.044722
+Number = 2
+output[8] = 0.000000, error[2] = -0.000000
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000029, error[9] = -0.000029
+Number = 8
+output[8] = 0.708222, error[8] = 0.291778
+Number = 1
+output[9] = 0.000016, error[1] = -0.000016
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000001, error[0] = -0.000001
+Number = 4
+output[9] = 0.000050, error[4] = -0.000050
+Number = 6
+output[9] = 0.000167, error[6] = -0.000167
+Number = 5
+output[9] = 0.049358, error[5] = -0.049358
+Number = 2
+output[9] = 0.000022, error[2] = -0.000022
+Number = 7
+output[9] = 0.001961, error[7] = -0.001961
+Number = 9
+output[9] = 0.997624, error[9] = 0.002376
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000
+Learning cycle: 5
+Number = 1
+output[0] = 0.000128, error[1] = -0.000128
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999280, error[0] = 0.000720
+Number = 4
+output[0] = 0.000001, error[4] = -0.000001
+Number = 6
+output[0] = 0.000009, error[6] = -0.000009
+Number = 5
+output[0] = 0.000002, error[5] = -0.000002
+Number = 2
+output[0] = 0.000000, error[2] = -0.000000
+Number = 7
+output[0] = 0.000355, error[7] = -0.000355
+Number = 9
+output[0] = 0.000020, error[9] = -0.000020
+Number = 8
+output[0] = 0.000015, error[8] = -0.000015
+Number = 1
+output[1] = 0.828122, error[1] = 0.171878
+Number = 3
+output[1] = 0.000036, error[3] = -0.000036
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.000174, error[4] = -0.000174
+Number = 6
+output[1] = 0.001593, error[6] = -0.001593
+Number = 5
+output[1] = 0.002915, error[5] = -0.002915
+Number = 2
+output[1] = 0.010864, error[2] = -0.010864
+Number = 7
+output[1] = 0.000001, error[7] = -0.000001
+Number = 9
+output[1] = 0.000003, error[9] = -0.000003
+Number = 8
+output[1] = 0.006966, error[8] = -0.006966
+Number = 1
+output[2] = 0.000187, error[1] = -0.000187
+Number = 3
+output[2] = 0.000014, error[3] = -0.000014
+Number = 0
+output[2] = 0.000206, error[0] = -0.000206
+Number = 4
+output[2] = 0.000099, error[4] = -0.000099
+Number = 6
+output[2] = 0.000081, error[6] = -0.000081
+Number = 5
+output[2] = 0.000038, error[5] = -0.000038
+Number = 2
+output[2] = 0.999964, error[2] = 0.000036
+Number = 7
+output[2] = 0.000342, error[7] = -0.000342
+Number = 9
+output[2] = 0.000080, error[9] = -0.000080
+Number = 8
+output[2] = 0.000001, error[8] = -0.000001
+Number = 1
+output[3] = 0.000002, error[1] = -0.000002
+Number = 3
+output[3] = 0.991778, error[3] = 0.008222
+Number = 0
+output[3] = 0.000000, error[0] = -0.000000
+Number = 4
+output[3] = 0.000000, error[4] = -0.000000
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000151, error[5] = -0.000151
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.011642, error[7] = -0.011642
+Number = 9
+output[3] = 0.000129, error[9] = -0.000129
+Number = 8
+output[3] = 0.000444, error[8] = -0.000444
+Number = 1
+output[4] = 0.000001, error[1] = -0.000001
+Number = 3
+output[4] = 0.000025, error[3] = -0.000025
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.928016, error[4] = 0.071984
+Number = 6
+output[4] = 0.000004, error[6] = -0.000004
+Number = 5
+output[4] = 0.000479, error[5] = -0.000479
+Number = 2
+output[4] = 0.003126, error[2] = -0.003126
+Number = 7
+output[4] = 0.000008, error[7] = -0.000008
+Number = 9
+output[4] = 0.003162, error[9] = -0.003162
+Number = 8
+output[4] = 0.000000, error[8] = -0.000000
+Number = 1
+output[5] = 0.007533, error[1] = -0.007533
+Number = 3
+output[5] = 0.000004, error[3] = -0.000004
+Number = 0
+output[5] = 0.000339, error[0] = -0.000339
+Number = 4
+output[5] = 0.002261, error[4] = -0.002261
+Number = 6
+output[5] = 0.000046, error[6] = -0.000046
+Number = 5
+output[5] = 0.998635, error[5] = 0.001365
+Number = 2
+output[5] = 0.000022, error[2] = -0.000022
+Number = 7
+output[5] = 0.000005, error[7] = -0.000005
+Number = 9
+output[5] = 0.000002, error[9] = -0.000002
+Number = 8
+output[5] = 0.001912, error[8] = -0.001912
+Number = 1
+output[6] = 0.000002, error[1] = -0.000002
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000000, error[0] = -0.000000
+Number = 4
+output[6] = 0.000002, error[4] = -0.000002
+Number = 6
+output[6] = 0.999456, error[6] = 0.000544
+Number = 5
+output[6] = 0.040567, error[5] = -0.040567
+Number = 2
+output[6] = 0.001903, error[2] = -0.001903
+Number = 7
+output[6] = 0.000437, error[7] = -0.000437
+Number = 9
+output[6] = 0.000471, error[9] = -0.000471
+Number = 8
+output[6] = 0.000004, error[8] = -0.000004
+Number = 1
+output[7] = 0.000033, error[1] = -0.000033
+Number = 3
+output[7] = 0.000008, error[3] = -0.000008
+Number = 0
+output[7] = 0.000054, error[0] = -0.000054
+Number = 4
+output[7] = 0.002134, error[4] = -0.002134
+Number = 6
+output[7] = 0.000042, error[6] = -0.000042
+Number = 5
+output[7] = 0.000000, error[5] = -0.000000
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.998689, error[7] = 0.001311
+Number = 9
+output[7] = 0.009184, error[9] = -0.009184
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.000749, error[1] = -0.000749
+Number = 3
+output[8] = 0.000001, error[3] = -0.000001
+Number = 0
+output[8] = 0.041029, error[0] = -0.041029
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.001745, error[6] = -0.001745
+Number = 5
+output[8] = 0.426456, error[5] = -0.426456
+Number = 2
+output[8] = 0.000010, error[2] = -0.000010
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000004, error[9] = -0.000004
+Number = 8
+output[8] = 0.982723, error[8] = 0.017277
+Number = 1
+output[9] = 0.000005, error[1] = -0.000005
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000002, error[0] = -0.000002
+Number = 4
+output[9] = 0.094132, error[4] = -0.094132
+Number = 6
+output[9] = 0.001553, error[6] = -0.001553
+Number = 5
+output[9] = 0.000917, error[5] = -0.000917
+Number = 2
+output[9] = 0.000006, error[2] = -0.000006
+Number = 7
+output[9] = 0.000953, error[7] = -0.000953
+Number = 9
+output[9] = 0.507993, error[9] = 0.492007
+Number = 8
+output[9] = 0.000001, error[8] = -0.000001
+Learning cycle: 6
+Number = 1
+output[0] = 0.000246, error[1] = -0.000246
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999627, error[0] = 0.000373
+Number = 4
+output[0] = 0.000001, error[4] = -0.000001
+Number = 6
+output[0] = 0.000003, error[6] = -0.000003
+Number = 5
+output[0] = 0.000000, error[5] = -0.000000
+Number = 2
+output[0] = 0.000000, error[2] = -0.000000
+Number = 7
+output[0] = 0.000089, error[7] = -0.000089
+Number = 9
+output[0] = 0.000002, error[9] = -0.000002
+Number = 8
+output[0] = 0.000020, error[8] = -0.000020
+Number = 1
+output[1] = 0.987747, error[1] = 0.012253
+Number = 3
+output[1] = 0.000005, error[3] = -0.000005
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.003368, error[4] = -0.003368
+Number = 6
+output[1] = 0.000194, error[6] = -0.000194
+Number = 5
+output[1] = 0.047172, error[5] = -0.047172
+Number = 2
+output[1] = 0.012165, error[2] = -0.012165
+Number = 7
+output[1] = 0.000003, error[7] = -0.000003
+Number = 9
+output[1] = 0.000150, error[9] = -0.000150
+Number = 8
+output[1] = 0.014537, error[8] = -0.014537
+Number = 1
+output[2] = 0.000049, error[1] = -0.000049
+Number = 3
+output[2] = 0.000033, error[3] = -0.000033
+Number = 0
+output[2] = 0.000282, error[0] = -0.000282
+Number = 4
+output[2] = 0.000021, error[4] = -0.000021
+Number = 6
+output[2] = 0.000295, error[6] = -0.000295
+Number = 5
+output[2] = 0.000182, error[5] = -0.000182
+Number = 2
+output[2] = 0.999536, error[2] = 0.000464
+Number = 7
+output[2] = 0.000516, error[7] = -0.000516
+Number = 9
+output[2] = 0.000101, error[9] = -0.000101
+Number = 8
+output[2] = 0.000002, error[8] = -0.000002
+Number = 1
+output[3] = 0.000003, error[1] = -0.000003
+Number = 3
+output[3] = 0.997958, error[3] = 0.002042
+Number = 0
+output[3] = 0.000000, error[0] = -0.000000
+Number = 4
+output[3] = 0.000001, error[4] = -0.000001
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000222, error[5] = -0.000222
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.013257, error[7] = -0.013257
+Number = 9
+output[3] = 0.002404, error[9] = -0.002404
+Number = 8
+output[3] = 0.000370, error[8] = -0.000370
+Number = 1
+output[4] = 0.000001, error[1] = -0.000001
+Number = 3
+output[4] = 0.000234, error[3] = -0.000234
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.976045, error[4] = 0.023955
+Number = 6
+output[4] = 0.000001, error[6] = -0.000001
+Number = 5
+output[4] = 0.000061, error[5] = -0.000061
+Number = 2
+output[4] = 0.000653, error[2] = -0.000653
+Number = 7
+output[4] = 0.000089, error[7] = -0.000089
+Number = 9
+output[4] = 0.032145, error[9] = -0.032145
+Number = 8
+output[4] = 0.000000, error[8] = -0.000000
+Number = 1
+output[5] = 0.001298, error[1] = -0.001298
+Number = 3
+output[5] = 0.000003, error[3] = -0.000003
+Number = 0
+output[5] = 0.000458, error[0] = -0.000458
+Number = 4
+output[5] = 0.000022, error[4] = -0.000022
+Number = 6
+output[5] = 0.000441, error[6] = -0.000441
+Number = 5
+output[5] = 0.999808, error[5] = 0.000192
+Number = 2
+output[5] = 0.000007, error[2] = -0.000007
+Number = 7
+output[5] = 0.000003, error[7] = -0.000003
+Number = 9
+output[5] = 0.000054, error[9] = -0.000054
+Number = 8
+output[5] = 0.000052, error[8] = -0.000052
+Number = 1
+output[6] = 0.000003, error[1] = -0.000003
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000008, error[0] = -0.000008
+Number = 4
+output[6] = 0.000003, error[4] = -0.000003
+Number = 6
+output[6] = 0.996468, error[6] = 0.003532
+Number = 5
+output[6] = 0.484600, error[5] = -0.484600
+Number = 2
+output[6] = 0.000480, error[2] = -0.000480
+Number = 7
+output[6] = 0.002244, error[7] = -0.002244
+Number = 9
+output[6] = 0.000090, error[9] = -0.000090
+Number = 8
+output[6] = 0.000008, error[8] = -0.000008
+Number = 1
+output[7] = 0.000049, error[1] = -0.000049
+Number = 3
+output[7] = 0.000004, error[3] = -0.000004
+Number = 0
+output[7] = 0.000022, error[0] = -0.000022
+Number = 4
+output[7] = 0.002441, error[4] = -0.002441
+Number = 6
+output[7] = 0.003972, error[6] = -0.003972
+Number = 5
+output[7] = 0.000002, error[5] = -0.000002
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999956, error[7] = 0.000044
+Number = 9
+output[7] = 0.000761, error[9] = -0.000761
+Number = 8
+output[7] = 0.000001, error[8] = -0.000001
+Number = 1
+output[8] = 0.000915, error[1] = -0.000915
+Number = 3
+output[8] = 0.000015, error[3] = -0.000015
+Number = 0
+output[8] = 0.001153, error[0] = -0.001153
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.003518, error[6] = -0.003518
+Number = 5
+output[8] = 0.006755, error[5] = -0.006755
+Number = 2
+output[8] = 0.000002, error[2] = -0.000002
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000013, error[9] = -0.000013
+Number = 8
+output[8] = 0.999654, error[8] = 0.000346
+Number = 1
+output[9] = 0.000115, error[1] = -0.000115
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000001, error[0] = -0.000001
+Number = 4
+output[9] = 0.025825, error[4] = -0.025825
+Number = 6
+output[9] = 0.055484, error[6] = -0.055484
+Number = 5
+output[9] = 0.005967, error[5] = -0.005967
+Number = 2
+output[9] = 0.000350, error[2] = -0.000350
+Number = 7
+output[9] = 0.028636, error[7] = -0.028636
+Number = 9
+output[9] = 0.999644, error[9] = 0.000356
+Number = 8
+output[9] = 0.000002, error[8] = -0.000002
+Learning cycle: 7
+Number = 1
+output[0] = 0.000006, error[1] = -0.000006
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999848, error[0] = 0.000152
+Number = 4
+output[0] = 0.000001, error[4] = -0.000001
+Number = 6
+output[0] = 0.000000, error[6] = -0.000000
+Number = 5
+output[0] = 0.000004, error[5] = -0.000004
+Number = 2
+output[0] = 0.000000, error[2] = -0.000000
+Number = 7
+output[0] = 0.000015, error[7] = -0.000015
+Number = 9
+output[0] = 0.000230, error[9] = -0.000230
+Number = 8
+output[0] = 0.000074, error[8] = -0.000074
+Number = 1
+output[1] = 0.934628, error[1] = 0.065372
+Number = 3
+output[1] = 0.000040, error[3] = -0.000040
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.000295, error[4] = -0.000295
+Number = 6
+output[1] = 0.000990, error[6] = -0.000990
+Number = 5
+output[1] = 0.018463, error[5] = -0.018463
+Number = 2
+output[1] = 0.001055, error[2] = -0.001055
+Number = 7
+output[1] = 0.000024, error[7] = -0.000024
+Number = 9
+output[1] = 0.000000, error[9] = -0.000000
+Number = 8
+output[1] = 0.031010, error[8] = -0.031010
+Number = 1
+output[2] = 0.001233, error[1] = -0.001233
+Number = 3
+output[2] = 0.000065, error[3] = -0.000065
+Number = 0
+output[2] = 0.001038, error[0] = -0.001038
+Number = 4
+output[2] = 0.000018, error[4] = -0.000018
+Number = 6
+output[2] = 0.000129, error[6] = -0.000129
+Number = 5
+output[2] = 0.000208, error[5] = -0.000208
+Number = 2
+output[2] = 0.999893, error[2] = 0.000107
+Number = 7
+output[2] = 0.000012, error[7] = -0.000012
+Number = 9
+output[2] = 0.000021, error[9] = -0.000021
+Number = 8
+output[2] = 0.000007, error[8] = -0.000007
+Number = 1
+output[3] = 0.000011, error[1] = -0.000011
+Number = 3
+output[3] = 0.993903, error[3] = 0.006097
+Number = 0
+output[3] = 0.000000, error[0] = -0.000000
+Number = 4
+output[3] = 0.000001, error[4] = -0.000001
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.001464, error[5] = -0.001464
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.000518, error[7] = -0.000518
+Number = 9
+output[3] = 0.000039, error[9] = -0.000039
+Number = 8
+output[3] = 0.004617, error[8] = -0.004617
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000020, error[3] = -0.000020
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.937669, error[4] = 0.062331
+Number = 6
+output[4] = 0.000256, error[6] = -0.000256
+Number = 5
+output[4] = 0.003749, error[5] = -0.003749
+Number = 2
+output[4] = 0.000461, error[2] = -0.000461
+Number = 7
+output[4] = 0.000025, error[7] = -0.000025
+Number = 9
+output[4] = 0.068641, error[9] = -0.068641
+Number = 8
+output[4] = 0.000001, error[8] = -0.000001
+Number = 1
+output[5] = 0.004522, error[1] = -0.004522
+Number = 3
+output[5] = 0.000052, error[3] = -0.000052
+Number = 0
+output[5] = 0.000421, error[0] = -0.000421
+Number = 4
+output[5] = 0.012591, error[4] = -0.012591
+Number = 6
+output[5] = 0.003080, error[6] = -0.003080
+Number = 5
+output[5] = 0.997354, error[5] = 0.002646
+Number = 2
+output[5] = 0.000115, error[2] = -0.000115
+Number = 7
+output[5] = 0.000001, error[7] = -0.000001
+Number = 9
+output[5] = 0.000012, error[9] = -0.000012
+Number = 8
+output[5] = 0.000075, error[8] = -0.000075
+Number = 1
+output[6] = 0.000000, error[1] = -0.000000
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000006, error[0] = -0.000006
+Number = 4
+output[6] = 0.000000, error[4] = -0.000000
+Number = 6
+output[6] = 0.987896, error[6] = 0.012104
+Number = 5
+output[6] = 0.000291, error[5] = -0.000291
+Number = 2
+output[6] = 0.000596, error[2] = -0.000596
+Number = 7
+output[6] = 0.003449, error[7] = -0.003449
+Number = 9
+output[6] = 0.001313, error[9] = -0.001313
+Number = 8
+output[6] = 0.000003, error[8] = -0.000003
+Number = 1
+output[7] = 0.000094, error[1] = -0.000094
+Number = 3
+output[7] = 0.000001, error[3] = -0.000001
+Number = 0
+output[7] = 0.000051, error[0] = -0.000051
+Number = 4
+output[7] = 0.000926, error[4] = -0.000926
+Number = 6
+output[7] = 0.006930, error[6] = -0.006930
+Number = 5
+output[7] = 0.000001, error[5] = -0.000001
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999944, error[7] = 0.000056
+Number = 9
+output[7] = 0.000661, error[9] = -0.000661
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.000075, error[1] = -0.000075
+Number = 3
+output[8] = 0.000001, error[3] = -0.000001
+Number = 0
+output[8] = 0.014492, error[0] = -0.014492
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.000638, error[6] = -0.000638
+Number = 5
+output[8] = 0.005988, error[5] = -0.005988
+Number = 2
+output[8] = 0.000000, error[2] = -0.000000
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000002, error[9] = -0.000002
+Number = 8
+output[8] = 0.977841, error[8] = 0.022159
+Number = 1
+output[9] = 0.000061, error[1] = -0.000061
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000002, error[0] = -0.000002
+Number = 4
+output[9] = 0.116052, error[4] = -0.116052
+Number = 6
+output[9] = 0.000353, error[6] = -0.000353
+Number = 5
+output[9] = 0.015917, error[5] = -0.015917
+Number = 2
+output[9] = 0.000014, error[2] = -0.000014
+Number = 7
+output[9] = 0.002274, error[7] = -0.002274
+Number = 9
+output[9] = 0.999894, error[9] = 0.000106
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000
+Learning cycle: 8
+Number = 1
+output[0] = 0.000479, error[1] = -0.000479
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999505, error[0] = 0.000495
+Number = 4
+output[0] = 0.000001, error[4] = -0.000001
+Number = 6
+output[0] = 0.000001, error[6] = -0.000001
+Number = 5
+output[0] = 0.000000, error[5] = -0.000000
+Number = 2
+output[0] = 0.000001, error[2] = -0.000001
+Number = 7
+output[0] = 0.000327, error[7] = -0.000327
+Number = 9
+output[0] = 0.000008, error[9] = -0.000008
+Number = 8
+output[0] = 0.000001, error[8] = -0.000001
+Number = 1
+output[1] = 0.878070, error[1] = 0.121930
+Number = 3
+output[1] = 0.000011, error[3] = -0.000011
+Number = 0
+output[1] = 0.000001, error[0] = -0.000001
+Number = 4
+output[1] = 0.002608, error[4] = -0.002608
+Number = 6
+output[1] = 0.003429, error[6] = -0.003429
+Number = 5
+output[1] = 0.002550, error[5] = -0.002550
+Number = 2
+output[1] = 0.001599, error[2] = -0.001599
+Number = 7
+output[1] = 0.000003, error[7] = -0.000003
+Number = 9
+output[1] = 0.000022, error[9] = -0.000022
+Number = 8
+output[1] = 0.031780, error[8] = -0.031780
+Number = 1
+output[2] = 0.000201, error[1] = -0.000201
+Number = 3
+output[2] = 0.000167, error[3] = -0.000167
+Number = 0
+output[2] = 0.002260, error[0] = -0.002260
+Number = 4
+output[2] = 0.000074, error[4] = -0.000074
+Number = 6
+output[2] = 0.001154, error[6] = -0.001154
+Number = 5
+output[2] = 0.000099, error[5] = -0.000099
+Number = 2
+output[2] = 0.999317, error[2] = 0.000683
+Number = 7
+output[2] = 0.000729, error[7] = -0.000729
+Number = 9
+output[2] = 0.000012, error[9] = -0.000012
+Number = 8
+output[2] = 0.000001, error[8] = -0.000001
+Number = 1
+output[3] = 0.000226, error[1] = -0.000226
+Number = 3
+output[3] = 0.963777, error[3] = 0.036223
+Number = 0
+output[3] = 0.000001, error[0] = -0.000001
+Number = 4
+output[3] = 0.000005, error[4] = -0.000005
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000002, error[5] = -0.000002
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.096379, error[7] = -0.096379
+Number = 9
+output[3] = 0.000055, error[9] = -0.000055
+Number = 8
+output[3] = 0.000453, error[8] = -0.000453
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000011, error[3] = -0.000011
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.998982, error[4] = 0.001018
+Number = 6
+output[4] = 0.000001, error[6] = -0.000001
+Number = 5
+output[4] = 0.003127, error[5] = -0.003127
+Number = 2
+output[4] = 0.001060, error[2] = -0.001060
+Number = 7
+output[4] = 0.000016, error[7] = -0.000016
+Number = 9
+output[4] = 0.004370, error[9] = -0.004370
+Number = 8
+output[4] = 0.000000, error[8] = -0.000000
+Number = 1
+output[5] = 0.001323, error[1] = -0.001323
+Number = 3
+output[5] = 0.000002, error[3] = -0.000002
+Number = 0
+output[5] = 0.001990, error[0] = -0.001990
+Number = 4
+output[5] = 0.000381, error[4] = -0.000381
+Number = 6
+output[5] = 0.000033, error[6] = -0.000033
+Number = 5
+output[5] = 0.997894, error[5] = 0.002106
+Number = 2
+output[5] = 0.000002, error[2] = -0.000002
+Number = 7
+output[5] = 0.000001, error[7] = -0.000001
+Number = 9
+output[5] = 0.000006, error[9] = -0.000006
+Number = 8
+output[5] = 0.000008, error[8] = -0.000008
+Number = 1
+output[6] = 0.000000, error[1] = -0.000000
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000000, error[0] = -0.000000
+Number = 4
+output[6] = 0.000001, error[4] = -0.000001
+Number = 6
+output[6] = 0.982945, error[6] = 0.017055
+Number = 5
+output[6] = 0.000898, error[5] = -0.000898
+Number = 2
+output[6] = 0.000582, error[2] = -0.000582
+Number = 7
+output[6] = 0.001751, error[7] = -0.001751
+Number = 9
+output[6] = 0.000001, error[9] = -0.000001
+Number = 8
+output[6] = 0.000001, error[8] = -0.000001
+Number = 1
+output[7] = 0.000007, error[1] = -0.000007
+Number = 3
+output[7] = 0.000001, error[3] = -0.000001
+Number = 0
+output[7] = 0.000000, error[0] = -0.000000
+Number = 4
+output[7] = 0.000004, error[4] = -0.000004
+Number = 6
+output[7] = 0.000129, error[6] = -0.000129
+Number = 5
+output[7] = 0.000103, error[5] = -0.000103
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999955, error[7] = 0.000045
+Number = 9
+output[7] = 0.004444, error[9] = -0.004444
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.000006, error[1] = -0.000006
+Number = 3
+output[8] = 0.000007, error[3] = -0.000007
+Number = 0
+output[8] = 0.000233, error[0] = -0.000233
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.003093, error[6] = -0.003093
+Number = 5
+output[8] = 0.004064, error[5] = -0.004064
+Number = 2
+output[8] = 0.000015, error[2] = -0.000015
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000005, error[9] = -0.000005
+Number = 8
+output[8] = 0.554584, error[8] = 0.445416
+Number = 1
+output[9] = 0.000271, error[1] = -0.000271
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000000, error[0] = -0.000000
+Number = 4
+output[9] = 0.000524, error[4] = -0.000524
+Number = 6
+output[9] = 0.000367, error[6] = -0.000367
+Number = 5
+output[9] = 0.015945, error[5] = -0.015945
+Number = 2
+output[9] = 0.000118, error[2] = -0.000118
+Number = 7
+output[9] = 0.198776, error[7] = -0.198776
+Number = 9
+output[9] = 0.995748, error[9] = 0.004252
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000
+Learning cycle: 9
+Number = 1
+output[0] = 0.000036, error[1] = -0.000036
+Number = 3
+output[0] = 0.000000, error[3] = -0.000000
+Number = 0
+output[0] = 0.999926, error[0] = 0.000074
+Number = 4
+output[0] = 0.000000, error[4] = -0.000000
+Number = 6
+output[0] = 0.000005, error[6] = -0.000005
+Number = 5
+output[0] = 0.000002, error[5] = -0.000002
+Number = 2
+output[0] = 0.000000, error[2] = -0.000000
+Number = 7
+output[0] = 0.000010, error[7] = -0.000010
+Number = 9
+output[0] = 0.000002, error[9] = -0.000002
+Number = 8
+output[0] = 0.000021, error[8] = -0.000021
+Number = 1
+output[1] = 0.227862, error[1] = 0.772138
+Number = 3
+output[1] = 0.010796, error[3] = -0.010796
+Number = 0
+output[1] = 0.000000, error[0] = -0.000000
+Number = 4
+output[1] = 0.035332, error[4] = -0.035332
+Number = 6
+output[1] = 0.271367, error[6] = -0.271367
+Number = 5
+output[1] = 0.051703, error[5] = -0.051703
+Number = 2
+output[1] = 0.001717, error[2] = -0.001717
+Number = 7
+output[1] = 0.000014, error[7] = -0.000014
+Number = 9
+output[1] = 0.000028, error[9] = -0.000028
+Number = 8
+output[1] = 0.400674, error[8] = -0.400674
+Number = 1
+output[2] = 0.000024, error[1] = -0.000024
+Number = 3
+output[2] = 0.000002, error[3] = -0.000002
+Number = 0
+output[2] = 0.000495, error[0] = -0.000495
+Number = 4
+output[2] = 0.000616, error[4] = -0.000616
+Number = 6
+output[2] = 0.000886, error[6] = -0.000886
+Number = 5
+output[2] = 0.005332, error[5] = -0.005332
+Number = 2
+output[2] = 0.999890, error[2] = 0.000110
+Number = 7
+output[2] = 0.000095, error[7] = -0.000095
+Number = 9
+output[2] = 0.000136, error[9] = -0.000136
+Number = 8
+output[2] = 0.000009, error[8] = -0.000009
+Number = 1
+output[3] = 0.000002, error[1] = -0.000002
+Number = 3
+output[3] = 0.820690, error[3] = 0.179310
+Number = 0
+output[3] = 0.000000, error[0] = -0.000000
+Number = 4
+output[3] = 0.000000, error[4] = -0.000000
+Number = 6
+output[3] = 0.000000, error[6] = -0.000000
+Number = 5
+output[3] = 0.000039, error[5] = -0.000039
+Number = 2
+output[3] = 0.000000, error[2] = -0.000000
+Number = 7
+output[3] = 0.001228, error[7] = -0.001228
+Number = 9
+output[3] = 0.003889, error[9] = -0.003889
+Number = 8
+output[3] = 0.094845, error[8] = -0.094845
+Number = 1
+output[4] = 0.000000, error[1] = -0.000000
+Number = 3
+output[4] = 0.000005, error[3] = -0.000005
+Number = 0
+output[4] = 0.000000, error[0] = -0.000000
+Number = 4
+output[4] = 0.994488, error[4] = 0.005512
+Number = 6
+output[4] = 0.000001, error[6] = -0.000001
+Number = 5
+output[4] = 0.022184, error[5] = -0.022184
+Number = 2
+output[4] = 0.001328, error[2] = -0.001328
+Number = 7
+output[4] = 0.000003, error[7] = -0.000003
+Number = 9
+output[4] = 0.034973, error[9] = -0.034973
+Number = 8
+output[4] = 0.000000, error[8] = -0.000000
+Number = 1
+output[5] = 0.001146, error[1] = -0.001146
+Number = 3
+output[5] = 0.000003, error[3] = -0.000003
+Number = 0
+output[5] = 0.007588, error[0] = -0.007588
+Number = 4
+output[5] = 0.000073, error[4] = -0.000073
+Number = 6
+output[5] = 0.000057, error[6] = -0.000057
+Number = 5
+output[5] = 0.999370, error[5] = 0.000630
+Number = 2
+output[5] = 0.000004, error[2] = -0.000004
+Number = 7
+output[5] = 0.000002, error[7] = -0.000002
+Number = 9
+output[5] = 0.000001, error[9] = -0.000001
+Number = 8
+output[5] = 0.000118, error[8] = -0.000118
+Number = 1
+output[6] = 0.000000, error[1] = -0.000000
+Number = 3
+output[6] = 0.000000, error[3] = -0.000000
+Number = 0
+output[6] = 0.000000, error[0] = -0.000000
+Number = 4
+output[6] = 0.000000, error[4] = -0.000000
+Number = 6
+output[6] = 0.987249, error[6] = 0.012751
+Number = 5
+output[6] = 0.000327, error[5] = -0.000327
+Number = 2
+output[6] = 0.000409, error[2] = -0.000409
+Number = 7
+output[6] = 0.001567, error[7] = -0.001567
+Number = 9
+output[6] = 0.004874, error[9] = -0.004874
+Number = 8
+output[6] = 0.000001, error[8] = -0.000001
+Number = 1
+output[7] = 0.000057, error[1] = -0.000057
+Number = 3
+output[7] = 0.000002, error[3] = -0.000002
+Number = 0
+output[7] = 0.000101, error[0] = -0.000101
+Number = 4
+output[7] = 0.000029, error[4] = -0.000029
+Number = 6
+output[7] = 0.001679, error[6] = -0.001679
+Number = 5
+output[7] = 0.000000, error[5] = -0.000000
+Number = 2
+output[7] = 0.000000, error[2] = -0.000000
+Number = 7
+output[7] = 0.999872, error[7] = 0.000128
+Number = 9
+output[7] = 0.003733, error[9] = -0.003733
+Number = 8
+output[7] = 0.000000, error[8] = -0.000000
+Number = 1
+output[8] = 0.000421, error[1] = -0.000421
+Number = 3
+output[8] = 0.000321, error[3] = -0.000321
+Number = 0
+output[8] = 0.006761, error[0] = -0.006761
+Number = 4
+output[8] = 0.000000, error[4] = -0.000000
+Number = 6
+output[8] = 0.005959, error[6] = -0.005959
+Number = 5
+output[8] = 0.287541, error[5] = -0.287541
+Number = 2
+output[8] = 0.000000, error[2] = -0.000000
+Number = 7
+output[8] = 0.000000, error[7] = -0.000000
+Number = 9
+output[8] = 0.000010, error[9] = -0.000010
+Number = 8
+output[8] = 0.998473, error[8] = 0.001527
+Number = 1
+output[9] = 0.000001, error[1] = -0.000001
+Number = 3
+output[9] = 0.000000, error[3] = -0.000000
+Number = 0
+output[9] = 0.000000, error[0] = -0.000000
+Number = 4
+output[9] = 0.006517, error[4] = -0.006517
+Number = 6
+output[9] = 0.000151, error[6] = -0.000151
+Number = 5
+output[9] = 0.013610, error[5] = -0.013610
+Number = 2
+output[9] = 0.000091, error[2] = -0.000091
+Number = 7
+output[9] = 0.000451, error[7] = -0.000451
+Number = 9
+output[9] = 0.999719, error[9] = 0.000281
+Number = 8
+output[9] = 0.000000, error[8] = -0.000000

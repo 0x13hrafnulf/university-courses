@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hrafnulf/Documents/OS2017/Project/svm-memory/svmasm/svmasm.cpp
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+vector
+-
+algorithm
+-
+cctype
+-
+

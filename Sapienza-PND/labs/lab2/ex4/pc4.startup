@@ -1,0 +1,2 @@
+umount /etc/resolv.conf
+dpkg -i --force-confold /shared/*.deb

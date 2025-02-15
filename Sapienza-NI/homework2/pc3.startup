@@ -1,0 +1,20 @@
+/etc/init.d/networking restart
+/etc/init.d/ssh restart
+
+mkdir /home/user
+useradd user -d /home/user
+chwon user:user /home/user
+echo -e 'exam\nexam\n' | passwd user
+
+mkdir /home/user/.ssh
+chown user:user /home/user/.ssh
+chmod 700 /home/user/.ssh
+touch /home/user/.ssh/authorized_keys
+chown user:user /home/user/.ssh/authorized_keys
+chmod 600 /home/user/.ssh/authorized_keys
+if [ -e /shared/pc4_key.pub ]
+then
+	cat /shared/pc4_key.pub > /home/user/.ssh/authorized_keys
+else 
+	sleep 1
+fi

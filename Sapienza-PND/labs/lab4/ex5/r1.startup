@@ -1,0 +1,54 @@
+echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+dpkg -i /var/cache/apt/archives/*.deb
+apt install -f -y busybox udhcpd -o Dpkg::Options::="--force-confold" 
+
+ip addr add 192.168.10.17/29 dev eth0
+
+udhcpd -S
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+#iptables -A OUTPUT -o eth0 -j ACCEPT
+#iptables -A OUTPUT -o eth1 -p tcp --sport 80 -j ACCEPT
+#iptables -A OUTPUT -o eth1 -p tcp --sport 443 -j ACCEPT
+#iptables -A OUTPUT -o eth1 -p tcp --sport 22 -j ACCEPT
+
+iptables -A INPUT -i eth0 -j ACCEPT
+iptables -A INPUT -i eth1 -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -i eth1 -p tcp --dport 443 -j ACCEPT
+iptables -A INPUT -i eth1 -p tcp --dport 22 -j ACCEPT
+
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+
+iptables -t nat -A PREROUTING -i eth1 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.18
+iptables -t nat -A PREROUTING -i eth1 -p tcp --dport 443 -j DNAT --to-destination 192.168.10.18
+iptables -t nat -A PREROUTING -i eth1 -p tcp --dport 22 -j DNAT --to-destination 192.168.10.22
+
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.18 -p tcp --dport 80 -j SNAT --to-source 192.168.10.17
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.18 -p tcp --dport 443 -j SNAT --to-source  192.168.10.17
+iptables -t nat -A POSTROUTING -o eth0 -d 192.168.10.22 -p tcp --dport 22 -j SNAT --to-source  192.168.10.17
+
+iptables -A FORWARD -p tcp --dport 80  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 80  -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --dport 443 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 443 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+
+iptables -A FORWARD -p tcp --dport 22 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+iptables -A FORWARD -p tcp --sport 22 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT
+
+iptables -A INPUT -i eth1 -d 172.17.0.2 -p icmp --icmp-type echo-request -j DROP 
+
+iptables -A INPUT -i eth1 -p TCP -j REJECT --reject-with tcp-reset
+iptables -A INPUT -i eth1 -p ICMP -j REJECT --reject-with icmp-port-unreachable
+
+iptables -A FORWARD -i eth0 -o eth0 -j ACCEPT
+
+iptables -N LOGGING
+iptables -A INPUT -j LOGGING
+iptables -A OUTPUT -j LOGGING
+iptables -A FORWARD -j LOGGING
+iptables -A LOGGING -j LOG --log-prefix "IPTables-Dropped: "
+iptables -A LOGGING -j DROP

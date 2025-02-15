@@ -1,0 +1,23 @@
+ip addr add 100.60.0.2/16 dev eth0
+ip addr add 192.168.1.1/24 dev eth1
+ip route add default via 100.60.0.1
+
+dpkg -i /shared/*.deb 
+
+#in /etc/ipsec-tools.conf add lines
+#flush;
+#spdflush;
+#spdadd 192.168.1.0/24 192.168.2.0/24 any -P out ipsec
+#   esp/tunnel/100.60.0.2-100.90.0.2/require;
+
+#spdadd 192.168.2.0/24 192.168.1.0/24 any -P in ipsec
+#   esp/tunnel/100.90.0.2-100.60.0.2/require;
+
+#add 100.60.0.2 100.90.0.2 esp 701 -m tunnel -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0f;
+#add 100.90.0.2 100.60.0.2 esp 702 -m tunnel -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0e;
+
+#THEN
+#/etc/init.d/setkey start
+#setkey -D #to see setup

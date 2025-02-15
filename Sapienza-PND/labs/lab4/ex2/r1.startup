@@ -1,0 +1,42 @@
+ip addr add 192.168.100.1/24 dev eth0
+ip addr add 2001:db8:cafe:1::1/64 dev eth0
+ip addr add fe80::1/64 dev eth0
+ip addr add 192.168.10.1/24 dev eth1
+ip addr add 2001:db8:cafe:2::1/64 dev eth1
+ip addr add fe80::1/64 dev eth1
+
+dpkg -i /var/cache/apt/archives/*.deb
+apt install -y radvd
+radvd -m logfile -l /var/log/radvd.log
+
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
+ip6tables -P INPUT DROP
+ip6tables -P OUTPUT DROP
+ip6tables -P FORWARD DROP
+
+#BASED ON RFC4890
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 1 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 2 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 3 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 4 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 1 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 2 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 3 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 4 -j ACCEPT
+ip6tables -A FORWARD -i eth1 -p icmpv6 --icmpv6-type 1 -j ACCEPT
+ip6tables -A FORWARD -i eth1 -p icmpv6 --icmpv6-type 2 -j ACCEPT
+ip6tables -A FORWARD -i eth1 -p icmpv6 --icmpv6-type 3 -j ACCEPT
+ip6tables -A FORWARD -i eth1 -p icmpv6 --icmpv6-type 4 -j ACCEPT
+# Router and neighbor discovery incoming and outgoing
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 133 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 134 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 135 -j ACCEPT
+ip6tables -A INPUT -p icmpv6 --icmpv6-type 136 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 133 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 134 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 135 -j ACCEPT
+ip6tables -A OUTPUT -p icmpv6 --icmpv6-type 136 -j ACCEPT
+
+ip6tables -A FORWARD -p tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
+ip6tables -A FORWARD -p tcp --sport 80 -m state --state ESTABLISHED,RELATED -j ACCEPT

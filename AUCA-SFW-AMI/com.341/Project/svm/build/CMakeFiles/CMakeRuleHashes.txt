@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+295d0b46fb0cdd79bd3b25e2e33166fd assemblies/CMakeFiles/assemblies
+544ef051522ac9e7c2bd183362f87e14 assemblies/change_registers_and_exit.vmexe
+3c5198eaa3d3d2a572cfeac44775482d assemblies/write_to_register_in_loop.vmexe

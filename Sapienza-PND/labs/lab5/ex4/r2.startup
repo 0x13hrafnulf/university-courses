@@ -1,0 +1,22 @@
+ip addr add fd00:cafe:0:2::100/64 dev eth0
+ip route add default via fd00:cafe:0:2::1
+
+dpkg -i /shared/*.deb
+
+#in /etc/ipsec-tools.conf add lines
+#flush;
+#spdflush;
+#spdadd fd00:cafe:0:1::100 fd00:cafe:0:2::100 any -P in ipsec
+#   esp/transport//require;
+
+#spdadd fd00:cafe:0:2::100 fd00:cafe:0:1::100 any -P out ipsec
+#   esp/transport//require;
+
+#add fd00:cafe:0:1::100 fd00:cafe:0:2::100 esp 701 -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0f;
+#add fd00:cafe:0:2::100 fd00:cafe:0:1::100 esp 702 -E 3des-cbc
+#   0xffe43246139904c25538d1d1618d9899ed61f45127b36f0e;
+
+#THEN
+#/etc/init.d/setkey start
+#setkey -D #to see setup
